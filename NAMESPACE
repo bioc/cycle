@@ -1,0 +1,3 @@
+import(Biobase)
+importFrom(stats, ar, rnorm, sd)
+export(ar1analysis,backgroundData,fdrfourier,fourierscore)
