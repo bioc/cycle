@@ -6,8 +6,8 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage{a4wide}
 \title{Introduction to cycle package}
-\author{Matthias E. Futschik\\ Centre for Molecular and Structural Biomedicine,  University of Algarve, Faro, Portugal\\ 
-URL: \textit{http://itb.biologie.hu-berlin.de/$\sim$futschik/software/R/cycle/index.html}
+\author{Matthias E. Futschik\\ SysBioLab,  University of Algarve, Faro, Portugal\\ 
+URL: \textit{http://cycle.sysbiolab.eu}
 }
 
 \begin{document}
@@ -20,7 +20,7 @@ URL: \textit{http://itb.biologie.hu-berlin.de/$\sim$futschik/software/R/cycle/in
 This failure can substantially interfere with the significance testing, and that neglecting autocorrelation can potentially lead to a considerable overestimation of the number of periodically expressed genes \cite{bioinfo}. Notably, randomized and Gaussian background models neglect the dependency structure within the observed data. In contrast, the use of autoregressive AR(1) background models gave a more accurate representation of correlations between measurements. More importantly, the choice of background model has drastic effects on the number of genes detected as significantly periodically expressed. A study of expression data of yeast cell cycle showed clearly that randomized and Gaussian background models tend to overestimate the number of significant periodically expressed genes  \cite{bioinfo}. Strikingly, the use of the more accurate AR(1)-background led to a considerable reduction of the number of periodic genes. Most importantly, AR(1)-based models achieve superior accuracy in determining periodically expressed genes as a subsequent assessment using benchmark datasets demonstrated. 
 
 This vignette gives a short introduction to the \textit{cycle} package which can be employed to assess the significance of periodic expression using Fourier analysis and different background models. Its usage is illustrated by the re-analysis of yeast cell cycle data.  More information and references can be found at the \textit{cycle} webpage: \\ 
- \hfill \fbox{\textit{http://itb.biologie.hu-berlin.de/$\sim$futschik/software/R/cycle/index.html}}\hfill
+ \hfill \fbox{\textit{http://cycle.sysbiolab.eu}}\hfill
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%
